@@ -13,23 +13,12 @@
     "emitDecoratorMetadata": true
   },
   "files": [
-    "src/annotations.ts",
-    "src/index",
-    "src/login-buttons",
     "typings/index.d.ts"
   ],
   "exclude": [
     "build",
     "node_modules",
     "typings/main",
-    "typings/main.d.ts",
-    "node_modules",
-    "/node_modules",
-    "../node_modules",
-    "*node_modules*",
-    "/node_modules*",
-    "angular2",
-    "rxjs",
-    "typings"
+    "typings/main.d.ts"
   ]
 }
