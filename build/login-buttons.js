@@ -99,7 +99,7 @@ var LoginButtons = (function () {
         return !!Package['accounts-password'];
     };
     LoginButtons.prototype._getLoginServices = function () {
-        var services = Package['accounts-oauth'] ? accounts_base_1.Accounts.oauth.serviceNames() : [];
+        var services = [];
         services.sort();
         if (this._hasPasswordService())
             services.push('password');

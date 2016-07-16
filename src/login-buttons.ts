@@ -147,7 +147,7 @@ export class LoginButtons {
   }
 
   _getLoginServices(): Array<any> {
-    let services = Package['accounts-oauth'] ? Accounts.oauth.serviceNames() : [];
+    let services = /*Package['accounts-oauth'] ? Accounts.oauth.serviceNames() :*/ [];
     services.sort();
 
     if (this._hasPasswordService())
