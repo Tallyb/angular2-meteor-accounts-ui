@@ -4,4 +4,5 @@ function __export(m) {
 }
 __export(require('./login-buttons'));
 __export(require('./annotations'));
+__export(require('./auth.guard'));
 //# sourceMappingURL=index.js.map
